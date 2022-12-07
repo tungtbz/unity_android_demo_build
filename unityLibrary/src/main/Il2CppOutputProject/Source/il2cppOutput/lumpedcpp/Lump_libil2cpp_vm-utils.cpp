@@ -1,0 +1,8 @@
+#include "il2cpp-config.h"
+#include "/Users/admin/Desktop/android_il2cpp/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/BlobReader.cpp"
+#include "/Users/admin/Desktop/android_il2cpp/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/Debugger.cpp"
+#include "/Users/admin/Desktop/android_il2cpp/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/NativeDelegateMethodCache.cpp"
+#include "/Users/admin/Desktop/android_il2cpp/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/NativeSymbol.cpp"
+#include "/Users/admin/Desktop/android_il2cpp/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/VmStringUtils.cpp"
+#include "/Users/admin/Desktop/android_il2cpp/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/icalls/mscorlib/System.Threading/Interlocked.cpp"
+#include "/Users/admin/Desktop/android_il2cpp/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/vm-utils/icalls/mscorlib/System/Math.cpp"

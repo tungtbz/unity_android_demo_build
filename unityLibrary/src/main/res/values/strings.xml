@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id">79670645230-5q1c3cv3cmbtgg8mlsbnkb9p8po92skp.apps.googleusercontent.com</string>
+    <string name="fb_appid">1321596678410752</string>
+    <string name="fb_client_token">8be5a511b18b39d791dc02354d50a368</string>
+    <string name="gg_id">ca-app-pub-3880298791450605~7747969488</string>
+    <string name="campaign_code">IDLNEW</string>
+    <string name="game_code">RG-02</string>
+</resources>

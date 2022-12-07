@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "953471304193",
+    "project_id": "rofi-games-demo-app",
+    "storage_bucket": "rofi-games-demo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953471304193:android:b63eae7f818436d866b600",
+        "android_client_info": {
+          "package_name": "com.rofi.games.sdkdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953471304193-8a4auq21kmh6ikrfffqilog0ho4558fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJKZjeDChHW2KYXFZc_wLBgNl8R0JX_6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953471304193-8a4auq21kmh6ikrfffqilog0ho4558fe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "953471304193-7vgnlnjgi9uqt5g3tkijpu12s8kp6n9s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rofigamesdev.demoapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953471304193:android:cc9377d1bf95fc7566b600",
+        "android_client_info": {
+          "package_name": "com.rofigamesdev.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953471304193-8a4auq21kmh6ikrfffqilog0ho4558fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJKZjeDChHW2KYXFZc_wLBgNl8R0JX_6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953471304193-8a4auq21kmh6ikrfffqilog0ho4558fe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "953471304193-7vgnlnjgi9uqt5g3tkijpu12s8kp6n9s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rofigamesdev.demoapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+
+allprojects {
+    buildscript {
+        repositories {
+            google()
+            mavenCentral()  // Maven Central repository
+            jcenter()
+        }
+
+        dependencies {
+            classpath 'com.android.tools.build:gradle:4.0.1'
+            classpath 'com.google.gms:google-services:4.3.14'
+        }
+    }
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://android-sdk.is.com/' }
+        maven { url 'https://artifact.bytedance.com/repository/pangle' }
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
