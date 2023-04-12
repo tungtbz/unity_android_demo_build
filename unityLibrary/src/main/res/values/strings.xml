@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id">79670645230-5q1c3cv3cmbtgg8mlsbnkb9p8po92skp.apps.googleusercontent.com</string>
-    <string name="fb_appid">1321596678410752</string>
-    <string name="fb_client_token">8be5a511b18b39d791dc02354d50a368</string>
+<!--demo-->
+    <!--    <string name="default_web_client_id">295680731998-soskffvvgh98bf85j9u327edkcbi7uum.apps.googleusercontent.com</string>-->
+<!--    <string name="fb_appid">1321596678410752</string>-->
+<!--    <string name="fb_client_token">8be5a511b18b39d791dc02354d50a368</string>-->
+
+<!--    <string name="default_web_client_id">478515130828-9vbkdl4toninbuo7vn82bsm8bh6fto30.apps.googleusercontent.com</string>-->
+    <string name="default_web_client_id">478515130828-fmepo210eqjn8b4abut385uk27j6mc6f.apps.googleusercontent.com</string>
+    <string name="fb_appid">414659580654754</string>
+    <string name="fb_client_token">5b79e5726fba927fc42488b8d29a6ca7</string>
+
     <string name="gg_id">ca-app-pub-3880298791450605~7747969488</string>
     <string name="campaign_code">IDLNEW</string>
     <string name="game_code">RG-02</string>
+    <string name="default_notification_channel_id">test_channel</string>
+    <string name="ironsource_appid">16d0f7875</string>
+
 </resources>

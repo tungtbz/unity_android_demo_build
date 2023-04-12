@@ -1,5 +1,6 @@
 package com.unity3d.player;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -7,6 +8,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.content.res.Configuration;
 import android.graphics.PixelFormat;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
@@ -16,6 +18,15 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.os.Process;
+
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
+import com.bz.idolworld.library.AdsCallback;
+import com.bz.idolworld.library.LibHelper;
+import com.rofi.messaging.RofiMessagingHelper;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -35,7 +46,16 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     {
         return cmdLine;
     }
-
+    // Declare the launcher at the top of your Activity/Fragment:
+//    private final ActivityResultLauncher<String> requestPermissionLauncher =
+//            registerForActivityResult(new ActivityResultContracts.RequestPermission(), isGranted -> {
+//                if (isGranted) {
+//                    // FCM SDK (and your app) can post notifications.
+//                } else {
+//                    // TODO: Inform user that that your app will not show notifications.
+//                }
+//            });
+    private final int notificationRequestCode = 1212;
     // Setup activity layout
     @Override protected void onCreate(Bundle savedInstanceState)
     {
@@ -48,21 +68,56 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
         mUnityPlayer = new UnityPlayer(this, this);
         setContentView(mUnityPlayer);
         mUnityPlayer.requestFocus();
+        SdkBridge.WarmUp();
+        askNotificationPermission();
 
-        //
-        try {
-            PackageInfo info = getPackageManager().getPackageInfo(
-                    "com.rofi.games.idolworl",
-                    PackageManager.GET_SIGNATURES);
-            for (Signature signature : info.signatures) {
-                MessageDigest md = MessageDigest.getInstance("SHA");
-                md.update(signature.toByteArray());
-                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+//        try {
+//            PackageInfo info = getPackageManager().getPackageInfo(
+//                    "com.rofi.games.idolworl",
+//                    PackageManager.GET_SIGNATURES);
+//            for (Signature signature : info.signatures) {
+//                MessageDigest md = MessageDigest.getInstance("SHA");
+//                md.update(signature.toByteArray());
+//                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+//            }
+//        } catch (PackageManager.NameNotFoundException e) {
+//
+//        } catch (NoSuchAlgorithmException e) {
+//
+//        }
+        initads();
+    }
+    
+    private void initads(){
+        LibHelper.getInstance().Init(UnityPlayerActivity.this);
+        LibHelper.getInstance().InitAds(getString(R.string.ironsource_appid), new AdsCallback() {
+            @Override
+            public void onRewardedVideoAdRewarded(String s) {
+                Log.d("UnityPlayerActivity", "onRewardedVideoAdRewarded: ");
             }
-        } catch (PackageManager.NameNotFoundException e) {
 
-        } catch (NoSuchAlgorithmException e) {
+            @Override
+            public void onRewardedVideoAdClosed() {
+                Log.d("UnityPlayerActivity", "onRewardedVideoAdClosed: ");
+            }
 
+            @Override
+            public void onRewardedVideoAdOpened() {
+                Log.d("UnityPlayerActivity", "onRewardedVideoAdOpened: ");
+            }
+        });
+    }
+
+    private void askNotificationPermission() {
+        // This is only necessary for API level >= 33 (TIRAMISU)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) ==
+                    PackageManager.PERMISSION_GRANTED) {
+                // FCM SDK (and your app) can post notifications.
+            } else {
+                // Directly ask for the permission
+                ActivityCompat.requestPermissions(UnityPlayerActivity.this, new String[] { Manifest.permission.POST_NOTIFICATIONS }, notificationRequestCode);
+            }
         }
     }
 
@@ -120,7 +175,7 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     @Override protected void onPause()
     {
         super.onPause();
-
+        LibHelper.getInstance().getmAdsService().OnPause();
         MultiWindowSupport.saveMultiWindowMode(this);
 
         if (MultiWindowSupport.getAllowResizableWindow(this))
@@ -133,6 +188,7 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     @Override protected void onResume()
     {
         super.onResume();
+        LibHelper.getInstance().getmAdsService().OnResume();
 
         if (MultiWindowSupport.getAllowResizableWindow(this) && !MultiWindowSupport.isMultiWindowModeChangedToTrue(this))
             return;
@@ -185,4 +241,5 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     @Override public boolean onKeyDown(int keyCode, KeyEvent event)   { return mUnityPlayer.injectEvent(event); }
     @Override public boolean onTouchEvent(MotionEvent event)          { return mUnityPlayer.injectEvent(event); }
     /*API12*/ public boolean onGenericMotionEvent(MotionEvent event)  { return mUnityPlayer.injectEvent(event); }
+
 }

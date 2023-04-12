@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb0e433c-d07e-4874-8f8e-56805b57890e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launcher/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unityLibrary/libs/bzlibrary-release.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unityLibrary/libs/messaging-release.aar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -26,33 +26,118 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/build.gradle.NEW" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/build.gradle.NEW" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/google-services.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/src/main/AndroidManifest.xml.NEW" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/src/main/AndroidManifest.xml.NEW" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/launcher/src/main/java/com/rofi/lib/AndroidBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/src/main/java/com/rofi/lib/AndroidBridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/build.gradle.NEW" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/build.gradle.NEW" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/libs/bzlogin-release.aar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/libs/bzlogin-release.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/libs/core-release.aar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/libs/core-release.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/libs/referral-release.aar" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/libs/referral-release.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/proguard-unity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/proguard-unity.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/AndroidManifest.xml.NEW" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/AndroidManifest.xml.NEW" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_Attr.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/GenericMethods2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics6.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCFieldValuesTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCFieldValuesTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCTypeValuesTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCTypeValuesTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateTypeValues.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateTypeValues.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCodeRegistration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCodeRegistration.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericAdjustorThunkTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericAdjustorThunkTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodDefinitions.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodDefinitions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodPointerTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodPointerTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodTable.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodTable.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInteropDataTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInteropDataTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInvokerTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInvokerTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataRegistration.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataRegistration.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataUsage.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataUsage.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppTypeDefinitions.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppTypeDefinitions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Mono.Security_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Mono.Security_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Configuration_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Configuration_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Core_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Core_Attr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Core_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Core_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Xml_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Xml_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System_Attr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_Attr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule_Attr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule_Attr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_Attr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_Attr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI_CodeGen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnresolvedVirtualCallStubs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnresolvedVirtualCallStubs.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib11.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib11.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib12.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib12.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib13.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib13.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib14.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib14.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib15.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib15.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib7.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib7.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib_Attr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib_Attr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib_CodeGen.c" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib_CodeGen.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/profile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/boot.config" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/boot.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/data.unity3d" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/assets/bin/Data/data.unity3d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/java/com/unity3d/player/SdkBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/java/com/unity3d/player/SdkBridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityLibrary/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unityLibrary/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[K8AIKN05R998R26]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/admin/.android/avd/8_Fold-out_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -87,6 +172,12 @@
                 <item name="android_il2cpp" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android_il2cpp" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -143,11 +234,18 @@
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/launcher/src/main/res/values/strings.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java.NEW" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/local.properties" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/unityLibrary/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/launcher/google-services.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/settings.gradle" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/unityLibrary/src/main/res/values/strings.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/unityLibrary/proguard-unity.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/launcher/src/main/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/launcher/build.gradle" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/unityLibrary/src/main/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gradle.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -167,20 +265,21 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/launcher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/unityLibrary/libs" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Properties" />
+    <option name="MODULE_TAB" value="Signing Configs" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/launcher" />
       <recent name="$PROJECT_DIR$/unityLibrary/libs" />
+      <recent name="$PROJECT_DIR$/launcher" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.unity3d.player" />
@@ -423,6 +522,27 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="android_il2cpp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="android_il2cpp [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -489,6 +609,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.android_il2cpp [signingReport]" />
+        <item itemvalue="Gradle.android_il2cpp [build]" />
         <item itemvalue="Gradle.android_il2cpp:launcher [installDebug]" />
         <item itemvalue="Gradle.android_il2cpp:unityLibrary [build]" />
       </list>
@@ -504,6 +625,16 @@
       <updated>1669730785889</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

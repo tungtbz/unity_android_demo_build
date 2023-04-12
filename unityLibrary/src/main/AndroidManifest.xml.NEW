@@ -15,7 +15,7 @@
     <meta-data android:name="unity.launch-fullscreen" android:value="True" />
     <meta-data android:name="unity.allow-resizable-window" android:value="False" />
     <meta-data android:name="notch.config" android:value="portrait|landscape" />
-    <meta-data android:name="unity.build-id" android:value="ac7ff627-6ad8-44bf-a05a-93c9ab0fb583" />
+    <meta-data android:name="unity.build-id" android:value="c970c2ce-c915-4d0e-bb70-c76806ae57b2" />
   </application>
   <uses-feature android:glEsVersion="0x00030000" />
   <uses-feature android:name="android.hardware.vulkan.version" android:required="false" />
